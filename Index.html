@@ -1,0 +1,206 @@
+
+<!doctype html>
+  <html lang=en>
+    <head>
+      <meta charset=utf-8>
+        <meta name=viewport content="width=device-width,initial-scale=1">
+          <title>The Pipers Page</title>
+          <link rel="icon" href="Images/IconImage.jpg">
+          <!--ICCON IMAGE: <a href="https://commons.wikimedia.org/wiki/File:Bagpipe_(PSF).jpg">Pearson Scott Foresman</a>, Public domain, via Wikimedia Commons-->
+          <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+      <!-- Tutorial = https://www.smashingmagazine.com/2021/07/dynamic-header-intersection-observer/#comments-dynamic-header-intersection-observer -->
+  </head>
+<body>
+<div class="content" page-content> <!--ALL CONTENT WITHIN DIV for OBSERVER--> <!-- Start Content DIV -->
+  <header header-content> 
+    <nav class="navigation">
+      <a href="#home" id="homeButton">Home</a> <!--Add class/ID if needed-->
+      <ul>
+        <li><a href="#About" link>About</a></li>
+          <div class="SetDrop">
+            <a href="#Sets">Sets</a>
+            <div class="SetDrop-content">
+              <a href="2.4Set.html">2/4 Set</a>
+              <a href="3.4Set.html">3/4 Set</a>
+              <a href="6.8Set.html">6/8 Set</a>
+              <a href="BlueBells.html">Blue Bells Set</a>
+              <a href="Patriotic.html">Patriotic Set</a>
+              <a href="IrishSet.html">Irish Set</a>
+              <a href="ScotlandTheBrave.html">Scotland The Brave Set</a>
+              <a href="AllSongs.html">All Songs</a>
+            </div>
+          </div>
+        <li><a href="#Contact" link>Contact</a></li>
+      </ul>
+    </nav>
+</header>
+    <main>
+      <!--https://www.w3schools.com/howto/howto_js_slideshow.asp-->
+      <section data-section="black" id="home">
+        <div class="Slides fade">
+          <p>Pipers Page</p>
+          <h6>Photo by <a href="https://unsplash.com/@sebastianpoc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sebastian Pociecha</a> on <a href="https://unsplash.com/photos/a-group-of-men-in-kilts-marching-down-a-street-idFvoPuh4P4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></h6>
+          <img class="banner" src="Images/Background/Home1.jpg">
+        </div>
+        <div class="Slides fade">
+          <p>Pipers Page</p>
+          <h6>Photo by <a href="https://unsplash.com/@my65roses?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sandie Peters</a> on <a href="https://unsplash.com/photos/a-group-of-people-in-a-field-4-6SitUCPRw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></h6>
+          <img class="banner" src="Images/Background/Home2.jpg">
+        </div>
+        <div class="Slides fade">
+          <p>Pipers Page</p>
+          <h6>Photo by <a href="https://unsplash.com/@mw41?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Martin Wemyss</a> on <a href="https://unsplash.com/photos/a-group-of-men-in-kilts-standing-next-to-each-other-2uEGeXo2rQ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></h6>
+          <img class="banner" src="Images/Background/Home3.jpg">
+        </div>
+ </section>
+<section data-section="white" id="About">
+  <h2>About</h2>
+    <p> Welcome to our collection of bagpipe sheet music and song examples!</p>
+    <p>This site is dedicated to helping pipers of all levels access quality sheet music and listen to curated sets to enhance their playing.</p>
+    <p>Whether you're practicing for a performance or just exploring new tunes, you'll find traditional and modern pieces organized by set for easy reference.</p>
+    <p>All audio recordings and sheet music featured here are sourced from publicly available materials or shared with permission, with credit given where due.</p>
+    <p>Dive in and enjoy the sound of the pipes!</p>
+    <br>
+</section>
+<section data-section="black" id="Sets">
+  <h1>SONG SETS</h1>
+    <div class="SetBox"><!--open main-->
+      <div class="BoxContainer">
+        <img src="Images/Set Images/2.4.png" class="setImage">
+        <div class="TextOverlay">
+          <div class="SetText">
+            <p>
+              <br>High Road to Gairloch
+              <br>The Brown Haired Maiden
+              <br>Highland Laddie
+              <br>Pipers Cave
+              <br>Battle of Waterloo
+            </p>
+            <a href="2.4Set.html">View Set</a>
+          </div>
+        </div>
+      </div>
+    <div class="BoxContainer">
+      <img src="Images/Set Images/3.4.png" class="setImage">
+      <div class="TextOverlay">
+        <div class="SetText">
+          <p>
+            <br>When the Battle’s O'er
+            <br>Green Hills of Tyrol
+          </p>
+          <a href="3.4Set.html">View Set</a>
+        </div>
+      </div>
+    </div>
+  <div class="BoxContainer">
+    <img src="Images/Set Images/6.8.png" class="setImage">
+    <div class="TextOverlay">
+      <div class="SetText">
+        <p>
+          <br>Garry Owen
+          <br>Antholl Highlanders
+          <br>The Steamboat
+          <br>Scots Wha Ha'e
+        </p>
+        <a href="6.8Set.html">View Set</a>
+      </div>
+    </div>
+  </div>
+<div class="BoxContainer">
+  <img src="Images/Set Images/BlueBells.JPG" class="setImage">
+  <div class="TextOverlay">
+    <div class="SetText">
+      <p>
+        <br>Blue Bells of Scotland
+        <br>The Rohan Tree
+        <br>Will Ye WIll Not Come Back Again
+      </p>
+      <a href="BlueBells.html">View Set</a>
+    </div>
+  </div>
+</div>
+<div class="BoxContainer">
+  <img src="Images/Set Images/Flag_of_the_United_States.png" class="setImage">
+  <div class="TextOverlay">
+    <div class="SetText">
+      <p>
+        <br>Yankee Doodle Dandy
+        <br>Grand Old Flag
+        <br>Marine Corps Hymn
+        <br>America the Beautiful
+        <br>Amazing Grace
+      </p>
+      <a href="Patriotic.html">View Set</a>
+    </div>
+  </div>
+</div>
+<div class="BoxContainer">
+  <img src="Images/Set Images/GreenHarpIreland.png" class="setImage">
+  <div class="TextOverlay">
+    <div class="SetText">
+      <p>
+        <br>Minstrel Boy
+        <br>Wearing Of The Green
+        <br>Dawning Of The Day
+      </p>
+      <a href="IrishSet.html">View Set</a>
+    </div>
+  </div>
+</div>
+<div class="BoxContainer">
+  <img src="Images/Set Images/ScotlandTheBrave.jpg" class="setImage">
+  <div class="TextOverlay">
+    <div class="SetText">
+      <p>
+        <br>Scotland the Brave
+        <br>Rohan Tree
+        <br>TWings
+      </p>
+      <a href="ScotlandTheBrave.html">View Set</a>
+    </div>
+  </div>
+</div>
+<div class="BoxContainer">
+  <img src="Images/Set Images/AllSongs.jpg" class="setImage">
+  <div class="TextOverlay">
+    <div class="SetText">
+      <p>
+        <a href="AllSongs.html">View All Songs</a>
+      </p>
+    </div>
+    </div>
+  </div>
+</div><!--close main-->
+<h6>Photo by <a href="https://unsplash.com/@tommaomaoer?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">tommao wang</a> on <a href="https://unsplash.com/photos/grayscale-photo-of-man-playing-guitar-BQ0q1-1rNmE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"> Unsplash</a> 
+| Set images from <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">Creative Commmons</a> or Public Domain</h6>
+<br>
+</section>
+      <section data-section="blue" id="Contact">
+            <h2 data-section-title>Contact</h2>
+            <form id="contact-form">
+                <!-- https://www.w3schools.com/tags/att_input_placeholder.asp 
+                 https://www.w3schools.com/tags/att_textarea_maxlength.asp -->
+                <p>Name:<br>
+                  <input type="text" name="user_name" required id="ContactFrom" placeholder="Your name">
+                </p>
+                <p>Email:<br>
+                  <input type="email" name="user_email" required id="ContactFrom" placeholder="Your email">
+                </p>
+                <p>Message:<br>
+                  <textarea name="message" rows="4" cols="4" placeholder="Your message here"></textarea>
+                <p><input type="submit" value="Send"></p>
+            </form>
+      </section>
+      <!--MAIN SCRIPT-->
+      <script src="script.js" type="text/javascript"></script> 
+    </main>
+<!--FOOTER: keep inside content DIV-->
+      <footer id="footer">
+        <p>&copy; 2025 The Pipers Page. Code licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
+        <p>See something on this site you that believe violates a copyright? Please <a href="Index.html#Contact">Contact Us</a></p>
+        <p>Review our <a href="Privacy.html">Privacy Policy</a></p>
+      </footer>
+    </div> <!-- END Content DIV -->
+  </body>
+</html>
