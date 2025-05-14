@@ -240,7 +240,7 @@ body {
 /* sets */
 /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
 #Sets{
-  background-image: url("../CapstoneProj/Images/Background/PiperWall.jpg");
+  background-image: url("Images/Background/PiperWall.jpg");
   background-size: cover;
   margin-top: -1.55em;
 }
