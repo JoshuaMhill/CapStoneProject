@@ -71,15 +71,15 @@
 let input = document.getElementById("input");
 input.addEventListener("keyup", Songfunction = () => {
 // Variables
-  let filter = input.value.toUpperCase();
+  let filter = input.value.toUpperCase(); // set to uppercase to match input
   let AllSongs = document.getElementById("AllSongs");
-  let song = AllSongs.getElementsByTagName("p");
+  let song = AllSongs.getElementsByTagName("p"); // use <P> tag as content wrapper
 // Loop through content in DOM
   for (x = 0; x < song.length; x++) {
     a = song[x].getElementsByTagName("a")[0];
-    if (a) {
+    if (a) { // use <a> tag as content
       txtValue = a.textContent || a.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      if (txtValue.toUpperCase().indexOf(filter) > -1) { 
         song[x].style.display = "";
       } else {
         song[x].style.display = "none";
@@ -91,7 +91,7 @@ input.addEventListener("keyup", Songfunction = () => {
     <script src="script.js" type="text/javascript"></script> <!--MAIN SCRIPT-->
       </main>
         <footer id="footer"><!--FOOTER: keep inside content song-->
-          <p>&copy; 2025 The Pipers Page. Code licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
+          <p>&copy; 2025 The Piping Page. Code licensed under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
           <p>See something on this site you that believe violates a copyright? Please <a href="index.html#Contact">Contact Us</a></p>
           <p>Review our <a href="Privacy.html">Privacy Policy</a></p>
         </footer>
