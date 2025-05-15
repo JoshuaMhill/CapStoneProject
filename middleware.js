@@ -1,12 +1,13 @@
-// middleware.js
+export const config = {
+  matcher: '/:path*',
+};
 export function middleware(request) {
-  let passwordAuthorization = request.headers.get("authorization");
-  let logginAuthorization = "Basic " + btoa("piper:PipersPage765"); 
+  let auth = request.headers.get("authorization");
+  let expected = "Basic " + btoa("piper:PipersPage765");
 
-  if (passwordAuthorization === logginAuthorization) {
+  if (auth === expected) {
     return new Response(null, { status: 200 });
   }
-
   return new Response("Authentication Required to View Page", {
     status: 401,
     headers: {
